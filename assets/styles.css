@@ -1,0 +1,191 @@
+body{
+    background-color: #3181ca;
+}
+
+.logo{
+    height: 100px;
+    width: 100px;
+}
+
+.header{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
+    background-color: #2489f3;
+    border-radius: 5px;
+}
+
+.heading{
+    font-size: 50px;
+    color: antiquewhite;
+    font-family: "Alegreya Sans SC", sans-serif;
+    font-weight: 700;
+}
+
+.midSection{
+    text-align: center;
+    border-radius: 5px;
+    background-color: #B9F3FC;
+    padding-bottom: 25px;
+}
+
+.subHeading,.subHeadingDark{
+    font-size: 35px;
+    text-align: center;
+    padding-top: 40px;
+    font-family: 'Mukta', sans-serif;
+}
+.subHeadingDark{
+    color: antiquewhite;
+}
+
+.description{
+    font-size: 20px;
+    padding: 0px 30px;
+    font-family: 'Josefin Sans';
+
+
+}
+
+.courseList{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    color: aliceblue;
+
+}
+
+.course{
+    display: flex;
+    justify-content: center;
+    gap: 15px;
+}
+
+dl.courses>dt{
+    font-weight: 900;
+    font-size: 18px;
+    font-family: 'Mukta', sans-serif;
+    text-decoration: underline;
+
+}
+
+.courses{
+    border: 2px solid black;
+    border-radius: 5px;
+    padding: 10px;
+}
+
+dl.courses>dd{
+    font-size: 18px;
+    font-family: 'Josefin Sans';
+    display: flex;
+    flex-wrap: wrap;
+
+
+}
+.testimonials{
+    background-color: #A0DEFF;
+    padding-bottom : 30px;
+    border-radius: 5px;
+
+}
+
+.review{
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    padding: 0px 30px;
+    font-family: 'Mukta', sans-serif;
+}
+
+dl.review>div{
+    border: 2px solid black;
+    border-radius: 5px;
+    padding: 10px;
+}
+
+table{
+    border: 3px solid black;
+    border-radius: 10px;
+    text-align: justify;
+}
+.table{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin: 50px 50px;
+}
+th{
+    font-size: 30px;
+    border: 3px solid whitesmoke;
+    background-color: #2489f3;
+    color: whitesmoke;
+    padding: 10px;
+    text-decoration: underline;
+    border-top-left-radius:5px;
+    border-top-right-radius:5px ;
+    text-align: center;
+    font-family: 'Mukta', sans-serif;
+    font-weight: 800;
+    }
+td{
+    border: 3px solid black;
+    font-size: 20px;
+    padding: 8px;
+    border-radius: 8px;
+    font-family: 'Josefin Sans';
+    padding: 15px;
+    background-color: aliceblue;
+}
+
+.disclaimer{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    color: aliceblue;
+    padding-bottom: 20px;
+}
+
+.signup{
+    background-color: #B9F3FC;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border-radius: 5px;
+    font-family: 'Mukta', sans-serif;
+    font-size: 35px;
+    justify-content: center;
+    gap: 2px;
+}
+div.signup>p{
+    margin-bottom: 0px;
+    font-size: 30px;
+}
+
+.login{
+    font-family: 'Mukta', sans-serif;
+    font-size: 30px;
+    border-radius: 8px;
+    background-color: #3181ca;
+    margin-bottom: 20px;
+}
+
+a{
+    text-decoration: none !important;
+    color: aliceblue;
+
+}
+
+.footer{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Mukta', sans-serif;
+    color: aliceblue;
+}
+
